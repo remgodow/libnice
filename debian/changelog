@@ -1,5 +1,5 @@
 
- (0.1.16-123-g49d25a8-dirty)
+libnice (0.1.16-123-g49d25a8-dirty)
 
   * gitlab-ci: Disable trigger for now
   * gitlab-ci: Make the documentation acceptable for the website
@@ -543,7 +543,7 @@
 -- Olivier Crête <olivier.crete@collabora.com>  Thu, 13 Feb 2020 16:19:03 -0500
 
 
- (0.1.16)
+libnice (0.1.16)
 
   * Version 0.1.16
   * gst: Fix URI in plugin
@@ -707,7 +707,7 @@
 -- Olivier Crête <olivier.crete@collabora.com>  Thu, 09 May 2019 13:18:13 -0400
 
 
- (0.1.15)
+libnice (0.1.15)
 
   * Version 0.1.15
   * Makefiles: Add meson.build files to tarball
@@ -1708,7 +1708,7 @@
 -- Olivier Crête <olivier.crete@collabora.com>  Thu, 27 Dec 2018 16:46:19 -0600
 
 
- (0.1.14)
+libnice (0.1.14)
 
   * Version 0.1.14
   * README: Depends on GLib 2.44
@@ -2970,7 +2970,7 @@
 -- Olivier Crête <olivier.crete@collabora.com>  Mon, 03 Apr 2017 14:28:22 -0400
 
 
- (0.1.13)
+libnice (0.1.13)
 
   * Version 0.1.13
   * examples: Use the correct g_io_channel_win32_new_fd() function
@@ -2992,7 +2992,7 @@
 -- Olivier Crête <olivier.crete@collabora.com>  Tue, 28 Apr 2015 15:37:57 -0400
 
 
- (0.1.12)
+libnice (0.1.12)
 
   * Version 0.1.12
   * examples: Make them build and work on Windows
@@ -3014,7 +3014,7 @@
 -- Olivier Crête <olivier.crete@collabora.com>  Wed, 22 Apr 2015 21:11:17 -0400
 
 
- (0.1.11)
+libnice (0.1.11)
 
   * Version 0.1.11
   * stunagent: Initiliaze variable
@@ -3122,7 +3122,7 @@
 -- Olivier Crête <olivier.crete@collabora.com>  Mon, 20 Apr 2015 17:24:08 -0400
 
 
- (0.1.10)
+libnice (0.1.10)
 
   * Version 0.1.10
   * nicesink: unblock pending write on component change
@@ -3143,7 +3143,7 @@
 -- Olivier Crête <olivier.crete@collabora.com>  Wed, 28 Jan 2015 22:35:09 -0500
 
 
- (0.1.9)
+libnice (0.1.9)
 
   * Version 0.1.9
   * Only change the receiving nicesock for udp-turn for ice-tcp
@@ -3243,7 +3243,7 @@
 -- Olivier Crête <olivier.crete@collabora.com>  Wed, 28 Jan 2015 21:44:04 -0500
 
 
- (0.1.8)
+libnice (0.1.8)
 
   * Version 0.1.8
   * agent: Remove extra post condition
@@ -4126,7 +4126,7 @@
 -- Olivier Crête <olivier.crete@collabora.com>  Thu, 09 Oct 2014 17:05:32 -0400
 
 
- (0.1.7)
+libnice (0.1.7)
 
   * Version 0.1.7
   * stunmessage: Revert another function to use sockaddr
@@ -4138,7 +4138,7 @@
 -- Olivier Crête <olivier.crete@collabora.com>  Mon, 05 May 2014 14:58:12 -0400
 
 
- (0.1.6)
+libnice (0.1.6)
 
   * Version 0.1.6
   * Fix udp-turn returning wrong message length in socket_recv_messages.
@@ -4354,7 +4354,7 @@
 -- Olivier Crête <olivier.crete@collabora.com>  Mon, 28 Apr 2014 20:39:31 -0400
 
 
- (0.1.5)
+libnice (0.1.5)
 
   * Version 0.1.5
   * configure: Remove -Wunsafe-loop-optimizations, it causes false warnings
@@ -5064,7 +5064,7 @@
 -- Olivier Crête <olivier.crete@collabora.com>  Thu, 06 Mar 2014 21:21:37 -0500
 
 
- (0.1.4)
+libnice (0.1.4)
 
   * Version 0.1.4
   * Fix documentation
@@ -5109,7 +5109,7 @@
 -- Youness Alaoui <youness.alaoui@collabora.co.uk>  Fri, 22 Feb 2013 19:28:44 -0500
 
 
- (0.1.3)
+libnice (0.1.3)
 
   * version 0.1.3
   * Compile the plugin for both GStreamer 0.10 and 1.0
@@ -5194,7 +5194,7 @@
 -- Olivier Crête <olivier.crete@collabora.com>  Thu, 13 Sep 2012 21:31:18 -0400
 
 
- (0.1.2)
+libnice (0.1.2)
 
   * version 0.1.2
   * Recognize a matching check if it's an INVALID message (error with no error-code)
@@ -5325,7 +5325,7 @@
 -- Youness Alaoui <youness.alaoui@collabora.co.uk>  Tue, 03 Apr 2012 16:37:38 -0400
 
 
- (0.1.1)
+libnice (0.1.1)
 
   * version 0.1.1
   * Fix support for solaris
@@ -5391,7 +5391,7 @@
 -- Youness Alaoui <youness.alaoui@collabora.co.uk>  Wed, 07 Sep 2011 20:59:03 -0400
 
 
- (0.1.0)
+libnice (0.1.0)
 
   * Version 0.1.0
   * Send new-candidate signals for host cands only if the gathering was successful
@@ -5518,7 +5518,7 @@
 -- Youness Alaoui <youness.alaoui@collabora.co.uk>  Thu, 20 Jan 2011 20:16:49 -0500
 
 
- (0.0.13)
+libnice (0.0.13)
 
   * Version 0.0.13
   * Merge remote branch 'tester/misc-fixes' into nice-kakaroto
@@ -5570,7 +5570,7 @@
 -- Youness Alaoui <youness.alaoui@collabora.co.uk>  Tue, 20 Jul 2010 17:57:08 -0400
 
 
- (0.0.12)
+libnice (0.0.12)
 
   * Version 0.0.12
   * Change the compatibility modes from DRAFT19 to RFC5245
@@ -5586,7 +5586,7 @@
 -- Youness Alaoui <youness.alaoui@collabora.co.uk>  Wed, 19 May 2010 16:31:47 -0400
 
 
- (0.0.11)
+libnice (0.0.11)
 
   * version 0.0.11
   * Add 'since 0.0.11' to the docs for pseudotcp methods
@@ -5660,7 +5660,7 @@
 -- Youness Alaoui <youness.alaoui@collabora.co.uk>  Thu, 18 Mar 2010 16:55:56 -0400
 
 
- (0.0.10)
+libnice (0.0.10)
 
   * Version 0.0.10
   * Updating NEWS file for 0.0.10
@@ -5694,7 +5694,7 @@
 -- Youness Alaoui <youness.alaoui@collabora.co.uk>  Wed, 04 Nov 2009 17:30:51 -0500
 
 
- (0.0.9)
+libnice (0.0.9)
 
   * version 0.0.9
   * Update doc
@@ -5716,7 +5716,7 @@
 -- Youness Alaoui <youness.alaoui@collabora.co.uk>  Fri, 31 Jul 2009 17:07:49 -0400
 
 
- (0.0.8)
+libnice (0.0.8)
 
   * version 0.0.8
   * Update TODO
@@ -5732,7 +5732,7 @@
 -- Youness Alaoui <youness.alaoui@collabora.co.uk>  Fri, 19 Jun 2009 18:37:52 -0400
 
 
- (0.0.7)
+libnice (0.0.7)
 
   * version 0.0.7
   * Add support for droping packets when using TCP and the bandwidth is too slow for the data output. The queue now has a limit of 20 packets and the tcp-turn now has to call send in a single shot to avoid dropping parts of the packet (dropping the length but send the data, or dropping only the padding at the end, etc..)
@@ -5768,7 +5768,7 @@
 -- Youness Alaoui <youness.alaoui@collabora.co.uk>  Thu, 11 Jun 2009 14:42:05 -0400
 
 
- (0.0.6)
+libnice (0.0.6)
 
   * version 0.0.6
   * Fix documentation
@@ -5887,7 +5887,7 @@
 -- Youness Alaoui <youness.alaoui@collabora.co.uk>  Tue, 31 Mar 2009 16:14:59 -0400
 
 
- (0.0.4)
+libnice (0.0.4)
 
   * version 0.0.4
   * remove useless agent in socks5 proxy, fix copyright and return FALSE in send, if we're in an error
@@ -5922,7 +5922,7 @@
 -- Youness Alaoui <youness.alaoui@collabora.co.uk>  Wed, 17 Dec 2008 17:42:11 -0500
 
 
- (0.0.3)
+libnice (0.0.3)
 
   * version 0.0.3
   * do not unref if it's NULL.
@@ -5952,7 +5952,7 @@
 -- Youness Alaoui <youness.alaoui@collabora.co.uk>  Tue, 25 Nov 2008 18:56:02 -0500
 
 
- (0.0.2)
+libnice (0.0.2)
 
   * version 0.0.2
   * remove the traffic_after_tick check because it caused problems with jingle. we need a tick every 25 seconds, but with that, the conncheck happens at 0s, and when the keepalive gets called @25s, it gets skipped and we only send our first keepalive after 50seconds... which means that jingle which stops processing if it doesn't receive a ping after 30 seconds, will stop playing our audio from 30 seconds to 50 seconds...
@@ -6005,7 +6005,7 @@
 -- Youness Alaoui <youness.alaoui@collabora.co.uk>  Wed, 12 Nov 2008 20:54:59 -0500
 
 
- (0.0.1)
+libnice (0.0.1)
 
   * update design document... maybe should be removed
   * Multiple relays can be set per component, so we need to make sure we validate the right one
